@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
@@ -191,6 +192,19 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_B2N_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_B2N_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_C1N_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_C1N_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_CTL_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_CTL_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_HG1_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_HG1_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_P2I_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_P2I_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_PL2_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_PL2_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_SAT_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SAT_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_SD1_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SD1_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_SS2_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SS2_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_TAS_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_TAS_cal.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/wifi/bdf/bdwlan_def.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_def.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/T9891M04.drc:$(TARGET_COPY_OUT_VENDOR)/firmware/T9891M04.drc \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/T9891M04.vstep:$(TARGET_COPY_OUT_VENDOR)/firmware/T9891M04.vstep \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/T9891R04.drc:$(TARGET_COPY_OUT_VENDOR)/firmware/T9891R04.drc \
