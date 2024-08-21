@@ -1,0 +1,3 @@
+PRODUCT_SOONG_NAMESPACES += vendor/nokia/Camera
+
+PRODUCT_PACKAGES += Camera
